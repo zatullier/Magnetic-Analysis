@@ -1,0 +1,25 @@
+﻿Connection,Breadboard_hole,Electrical_net
+PS1 +,a5,+5V
+PS1 -,a15,GND
+U1 red,b5,+5V
+U1 black,b15,GND
+U1 blue,b10,OUT1
+R1 supply,e5,+5V
+R1 output,e10,OUT1
+C1 supply optional,c5,+5V
+C1 ground optional,c15,GND
+CH1 tip,a10,OUT1
+CH1 reference,e15,GND
+J1 supply bridge end1 optional,d5,+5V
+J1 supply bridge end2 optional,a25,+5V
+J2 ground bridge end1 optional,d15,GND
+J2 ground bridge end2 optional,a27,GND
+U2 red optional,c25,+5V
+U2 black optional,b27,GND
+U2 blue optional,b20,OUT2
+R2 supply optional,b25,+5V
+R2 output optional,e20,OUT2
+C2 supply optional,d25,+5V
+C2 ground optional,d27,GND
+CH2 tip optional,a20,OUT2
+CH2 reference optional,c27,GND

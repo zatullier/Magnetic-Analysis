@@ -1,0 +1,10 @@
+*.md text eol=lf
+*.csv text eol=lf
+*.dxf text eol=lf
+*.step text eol=lf
+
+*.pdf binary
+*.xlsx binary
+*.dwg binary
+*.png binary
+*.stl binary
